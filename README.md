@@ -1,58 +1,40 @@
-Project Description
-Task Management Web App
+Project Title: To-Do List Application
 
-This web application allows users to effectively manage their tasks by adding, editing, deleting, and marking them as completed. The application is built using .NET Core for the backend, HTML/CSS for the front end, and jQuery for client-side interactivity.
+Description:
 
-Key Features:
+This web application provides a user-friendly interface for managing tasks efficiently. Users can add, edit, delete, and mark tasks as completed. The application is built using [mention the technologies used, e.g., Python, Flask, HTML, CSS, JavaScript].
 
-Task Creation: Users can add new tasks with a name, due date, and priority.
-Task Editing: Existing tasks can be modified to update their name, due date, or priority.
+Features:
+
+Task Creation: Users can add new tasks with a descriptive title and optional details.
+Task Editing: Existing tasks can be modified to update their titles, descriptions, or completion status.
 Task Deletion: Tasks can be removed from the list if they are no longer necessary.
-Task Completion: Tasks can be marked as completed to indicate that they have been finished.
-Responsive Design: The application is designed to be responsive, ensuring a good user experience on different screen sizes.
-Technologies Used:
+Task Completion: Completed tasks can be marked as such, allowing users to focus on outstanding items.
+Technologies:
 
-Backend: ASP.NET Core Web API, Entity Framework Core, SQLite (or SQL Server)
-Frontend: HTML, CSS, jQuery
-Project Structure:
+Backend: [List of backend technologies used, e.g., Python, Flask]
+Frontend: [List of frontend technologies used, e.g., HTML, CSS, JavaScript]
+Database: [Specify the database used, e.g., SQLite]
+Installation and Usage:
 
-TaskManagementApp/
-├── TaskManagementApp.API
-│   ├── Controllers
-│   ├── Data
-│   ├── Models
-│   ├── Program.cs
-│   └── Startup.cs
-├── TaskManagementApp.UI
-│   ├── index.html
-│   ├── script.js
-│   └── style.css
-└── README.md
-Steps to Run the Application:
-
-Clone the repository:
+Clone the Repository:
 Bash
-git clone https://github.com/your-username/TaskManagementApp.git
-Use code with caution.
+git clone https://github.com/your-username/Python-Backend-Development-Assignment
 
-Restore NuGet packages:
+Install Dependencies:
 Bash
-cd TaskManagementApp.API
-dotnet restore
-Use code with caution.
+cd Python-Backend-Development-Assignment
+   
+pip install -r requirements.txt  # Assuming you have a requirements.txt file
 
-Run the database:
-For in-memory database: The database will be created automatically when the application starts.
-For SQLite: Create a todo.db file in the TaskManagementApp.API directory.
-For SQL Server: Configure the connection string in appsettings.json and ensure SQL Server is running.
-Start the application:
+Run the Application:
 Bash
-dotnet run
-Use code with caution.
+python app.py  # Replace 'app.py' with your main Python file
 
-Access the application: Open a web browser and navigate to http://localhost:5000 to use the task management app.
-Additional Notes:
+Access the Application: Open a web browser and navigate to http://127.0.0.1:5000.
+Usage:
 
-You can customize the application's appearance and functionality by modifying the HTML, CSS, and JavaScript code.
-For more advanced features, consider adding features like task filtering, sorting, and reminders.
-You can replace SQLite with SQL Server by configuring the connection string in appsettings.json
+Adding Tasks: Click the "Add Task" button and enter the task title and description.
+Editing Tasks: Click the "Edit" button next to a task to modify its details.
+Deleting Tasks: Click the "Delete" button next to a task to remove it.
+Marking Tasks as Completed: Check the checkbox next to a task to mark it as completed.
