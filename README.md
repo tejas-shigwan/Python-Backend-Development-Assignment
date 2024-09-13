@@ -17,17 +17,16 @@ Frontend: [List of frontend technologies used, e.g., HTML, CSS, JavaScript]
 Database: [Specify the database used, e.g., SQLite]
 Installation and Usage:
 
-Clone the Repository:
+1. Clone the Repository:
 Bash
 git clone https://github.com/your-username/Python-Backend-Development-Assignment
 
-Install Dependencies:
+2. Install Dependencies:
 Bash
 cd Python-Backend-Development-Assignment
-   
 pip install -r requirements.txt  # Assuming you have a requirements.txt file
 
-Run the Application:
+3. Run the Application:
 Bash
 python app.py  # Replace 'app.py' with your main Python file
 
